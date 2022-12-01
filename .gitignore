@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# aactivator
+.activate.sh
+.deactivate.sh
+
+# Mac & vscode stuff
+.vscode/
+.DS_Store
