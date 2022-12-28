@@ -186,6 +186,10 @@ def parse_numbers_split(s: str) -> list[int]:
     return [int(x) for x in s.split()]
 
 
+def parse_numbers_split_2d(s: str) -> list[list[int]]:
+    return [[int(i) for i in x]for x in s.split()]
+
+
 def parse_numbers_comma(s: str) -> list[int]:
     return [int(x) for x in s.strip().split(',')]
 
